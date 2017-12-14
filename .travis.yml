@@ -21,6 +21,12 @@ before_install:
   
 install:
   - sudo docker build -t test/build .
+  - npm install -g react-scripts
+# TODO; implement test coverage check
+script:
+  - echo "TESTINGGGGGGGGGGGG"
+  # - go test ./... -tags dev -v
+  # - goreporter -p ./ -r ./reports -e -f text
 before_deploy:
   - gcloud --quiet components update kubectl
 deploy:
