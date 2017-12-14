@@ -19,8 +19,8 @@ before_install:
   - gcloud --quiet components update beta
   # - gcloud docker -- pull gcr.io/serene-188901/dash-ui:latest
   
-install:
-  - sudo docker build -t test/build .
+# install:
+#   - sudo docker build -t test/build .
   # - npm install -g react-scripts
 # TODO; implement test coverage check
 # script:
