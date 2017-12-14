@@ -4,6 +4,10 @@ go:
 cache:
   directories:
     - "$HOME/coding/google-cloud-sdk"
+
+services:
+  - docker
+
 env:
   global:
     - GOOGLE_APPLICATION_CREDENTIALS-~/gcloud-service-key.json
@@ -21,7 +25,6 @@ before_install:
   
 install:
   - sudo docker build -t test/build .
-  - npm install -g react-scripts
 # TODO; implement test coverage check
 script:
   - echo "TESTINGGGGGGGGGGGG"
