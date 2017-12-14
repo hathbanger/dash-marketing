@@ -21,24 +21,6 @@ before_install:
   
 install:
   - sudo docker build -t test/build .
-  # - npm install -g react-scripts
-# TODO; implement test coverage check
-# script:
-#   - echo "TESTINGGGGGGGGGGGG"
-#   - git clone https://github.com/facebook/watchman.git
-#   - pushd watchman
-#   - sudo apt-get install -y autoconf automake build-essential python-dev
-#   - ./autogen.sh
-#   - ./configure
-#   - make
-#   - sudo make install
-#   - echo "WATCHMANNNN VERSION"
-#   - watchman --version
-#   - popd
-#   - ls
-#   - npm test
-  # - go test ./... -tags dev -v
-  # - goreporter -p ./ -r ./reports -e -f text
 before_deploy:
   - gcloud --quiet components update kubectl
 deploy:
