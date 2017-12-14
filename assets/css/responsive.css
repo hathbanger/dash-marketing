@@ -1,0 +1,101 @@
+
+@media only screen and (max-width: 320px){
+    .subscribe-form .form-control {
+        width: 40%;
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+ #about.section-padd {
+    padding: 60px 0 80px 0;
+}
+   .newsletter-block{
+    width: auto;
+    padding: 20px;
+    left: 0;
+    top: -160px;
+}
+
+.subscribe-form .form-control{
+    width: 50%;
+}
+.subscribe-form .btn-subscribe{
+    padding: 0 10px;
+}
+.icon-block {
+    margin-bottom: 25px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a {
+    background-color: transparent;
+    color: #222;
+}
+.navbar-default .navbar-right > li:first-child{
+    margin-left: 20px!important;
+}
+.left-block .feature-block {
+    text-align: left;
+}
+.feature-img {
+    top: 0px;
+
+}
+.screenshot_caroussel .owl-controls .owl-next {
+   right: 30%;
+}
+.screenshot_caroussel .owl-controls .owl-prev {
+    left: 30%;
+}
+}
+@media only screen and (max-width: 1023px){
+    .image-circle
+    {
+       display:none;
+   }
+   .subscribe-form .form-control{
+    width: 50%;
+}
+.subscribe-form .btn-subscribe{
+    padding: 0 10px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .section-hero{
+        overflow: hidden;
+    }
+    .navbar-brand>img {
+        width: 140px;
+    }
+    .hero-img {
+        position: relative;
+        top: -35px;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+    .navbar-default .navbar-right > li + li {
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+    .section-hero{
+       height: 50vh;
+   }
+    #about.section-padd {
+    padding: 180px 0 80px 0;
+}
+
+}
+
+@media only screen and (min-width: 1600px){
+    .section-hero {
+        padding-top: 180px;
+    }
+}
