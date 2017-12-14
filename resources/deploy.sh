@@ -20,3 +20,4 @@ kubectl config current-context
 echo "Deploy"
 kubectl set image deployment/dash-marketing dash-marketing=gcr.io/serene-188901/dash-marketing:$TRAVIS_COMMIT
 
+
