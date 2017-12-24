@@ -1340,7 +1340,7 @@ Navigation
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
-  padding: 10px 0;
+  padding: 16px 0;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1460,15 +1460,15 @@ Navigation
   letter-spacing: 1px;
 }
 .navigation-menu .logo:hover, .navigation-menu .logo:focus,.navigation-menu .logo:active{
-  color:#333;
+  color:#fff;
 }
 
 .affix .navbar-right > li.active > a , .navbar-default.affix .navbar-nav>li>a{
- color:#333;
+ color:#fff;
 
 }
 .affix .navbar-right > li > a:hover ,.affix .navbar-right > li > a:focus, .navbar-collapse .navbar-right > li > a:active{
-  color:#333!important;
+  color:#fff!important;
 }
 
 /*----------------------------------------
